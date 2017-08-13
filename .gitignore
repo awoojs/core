@@ -1,0 +1,10 @@
+.DS_Store
+/node_modules
+/packages/*/node_modules
+*.log
+*.cache
+npm-debug.log
+_site/
+packages/*/sample_dest
+.nyc_output
+coverage.lcov
