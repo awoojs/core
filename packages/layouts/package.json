@@ -1,6 +1,6 @@
 {
   "name": "@weh/layouts",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "reusable html layouts for weh",
   "main": "lib/plugin.js",
   "files": [
