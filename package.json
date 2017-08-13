@@ -1,0 +1,7 @@
+{
+  "name": "core",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^2.0.0"
+  }
+}
