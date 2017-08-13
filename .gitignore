@@ -8,3 +8,4 @@ _site/
 packages/*/sample_dest
 .nyc_output
 coverage.lcov
+.changelog

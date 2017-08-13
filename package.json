@@ -15,6 +15,7 @@
     "ava": "0.21.0",
     "codecov": "2.3.0",
     "lerna": "2.0.0",
+    "lerna-changelog": "0.6.0",
     "nyc": "11.1.0",
     "snazzy": "7.0.0",
     "standard": "10.0.3",
