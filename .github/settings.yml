@@ -1,7 +1,6 @@
 repository:
-  name: matter
-  description: ':pill: front matter parsing plugin for weh'
-  homepage: http://npm.im/@weh/matter/
+  name: core
+  description: ':cd: officially supported plugins for weh'
   private: false
   has_issues: true
   has_projects: false
