@@ -8,12 +8,6 @@
 </p>
 
 <p>
-  <!-- code coverage -->
-  <a href="https://codecov.io/gh/wehjs/markdown"><img src="https://img.shields.io/codecov/c/github/wehjs/markdown.svg?style=flat-square"
-  alt="code coverage"></a>
-  <!-- travis ci -->
-  <a href="https://travis-ci.org/wehjs/markdown"><img src="https://img.shields.io/travis/wehjs/markdown.svg?style=flat-square"
-  alt="test status"></a>
   <!-- npm version -->
   <a href="https://npmjs.org/package/@weh/markdown">
     <img src="https://img.shields.io/npm/v/@weh/markdown.svg?style=flat-square"
@@ -22,12 +16,6 @@
   <!-- code style -->
   <a href="https://github.com/feross/standard"><img src="https://img.shields.io/badge/code%20style-standard-blue.svg?style=flat-square"
   alt="code style: standard"></a>
-  
-  <!-- greenkeeper -->
-  <a href="https://greenkeeper.io">
-    <img src="https://badges.greenkeeper.io/wehjs/markdown.svg"
-      alt="greenkeeper badge" />  
-  </a>
 </p>
 </div>
 
@@ -96,27 +84,6 @@ weh(async site => {
 ```
 
 All processed files are renamed to `<filename>.html` after being converted.
-
-## Development
-
-To work on this repository, clone it and install the npm dependencies:
-
-```sh
-git clone https://github.com/wehjs/markdown weh-markdown
-cd weh-markdown
-npm install
-```
-
-There are a couple of npm scripts provided for convenience:
-
-- `npm test` - runs linters and ava in ci mode
-- `npm run lint` - runs linters
-- `npm run ava` - only runs ava once
-- `npm run ava:ci` - runs ava in ci mode (generates coverage data)
-- `npm run ava:watch` - runs ava in watch mode
-- `npm run coverage` - generates coverage data
-- `npm run update-coc` - pulls the latest `weallbehave` code of conduct
-- `npm run deploy` - publishes npm package using `np`
 
 ## Maintainers
 
