@@ -89,10 +89,6 @@ All processed files are renamed to `<filename>.html` after being converted.
 
 - Frederic Marx <[marx.frederic@gmail.com](mailto:marx.frederic@gmail.com)>
 
-## Code of Conduct
-
-This repository operates under the [`weallbehave`](https://github.com/wealljs/weallbehave) Code of Conduct. Its contents can be found in [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md).
-
 ## License
 
 MIT (see [LICENSE](LICENSE) document)
