@@ -3,40 +3,13 @@
   "version": "1.0.2",
   "description": "reusable html layouts for weh",
   "main": "lib/plugin.js",
-  "scripts": {
-    "lint": "standard | snazzy",
-    "ava": "unset DEBUG; ava",
-    "ava:ci": "unset DEBUG; nyc ava",
-    "ava:watch": "unset DEBUG; ava -w",
-    "test": "npm run lint && npm run ava:ci",
-    "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
-    "update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'update code of conduct'",
-    "deploy": "np"
-  },
   "files": [
     "lib"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wehjs/layouts.git"
-  },
+  "repository": "https://github.com/wehjs/core/tree/master/packages/layouts",
   "keywords": [
     "weh"
   ],
   "author": "Olivia Hugger <olivia@fastmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/wehjs/layouts/issues"
-  },
-  "homepage": "https://github.com/wehjs/layouts#readme",
-  "devDependencies": {
-    "@weh/weh": "3.0.0",
-    "ava": "0.21.0",
-    "codecov": "2.3.0",
-    "np": "2.16.0",
-    "nyc": "11.0.3",
-    "snazzy": "7.0.0",
-    "standard": "10.0.2",
-    "weallbehave": "1.2.0"
-  }
+  "license": "MIT"
 }

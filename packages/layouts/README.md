@@ -7,12 +7,6 @@
 </p>
 
 <p align="center">
-  <!-- code coverage -->
-  <a href="https://codecov.io/gh/wehjs/layouts"><img src="https://img.shields.io/codecov/c/github/wehjs/layouts.svg?style=flat-square"
-  alt="code coverage"></a>
-  <!-- travis ci -->
-  <a href="https://travis-ci.org/wehjs/layouts"><img src="https://img.shields.io/travis/wehjs/layouts.svg?style=flat-square"
-  alt="test status"></a>
   <!-- npm version -->
   <a href="https://npmjs.org/package/@weh/layouts">
     <img src="https://img.shields.io/npm/v/@weh/layouts.svg?style=flat-square"
@@ -21,12 +15,6 @@
   <!-- code style -->
   <a href="https://github.com/feross/standard"><img src="https://img.shields.io/badge/code%20style-standard-blue.svg?style=flat-square"
   alt="code style: standard"></a>
-  
-  <!-- greenkeeper -->
-  <a href="https://greenkeeper.io">
-    <img src="https://badges.greenkeeper.io/wehjs/weh.svg"
-      alt="greenkeeper badge" />  
-  </a>
 </p>
 
 ## Features
@@ -107,27 +95,6 @@ weh(async site => {
   return site
 })
 ```
-
-## Development
-
-To work on this repository, clone it and install the npm dependencies:
-
-```sh
-git clone https://github.com/wehjs/layouts
-cd layouts
-npm install
-```
-
-There are a couple of npm scripts provided for convenience:
-
-- `npm test` - runs linters and ava in ci mode
-- `npm run lint` - runs linters
-- `npm run ava` - only runs ava once
-- `npm run ava:ci` - runs ava in ci mode (generates coverage data)
-- `npm run ava:watch` - runs ava in watch mode
-- `npm run coverage` - generates coverage data
-- `npm run update-coc` - pulls the latest `weallbehave` code of conduct
-- `npm run deploy` - publishes npm package using `np`
 
 ## Maintainers
 
