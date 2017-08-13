@@ -3,24 +3,11 @@
   "version": "1.0.3",
   "description": "🔻 Markdown parsing plugin for the weh static site generator",
   "main": "index.js",
-  "scripts": {
-    "lint": "standard | snazzy",
-    "ava": "ava",
-    "ava:ci": "nyc ava",
-    "ava:watch": "ava -w",
-    "test": "npm run lint && npm run ava:ci",
-    "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
-    "update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'update code of conduct'",
-    "deploy": "np"
-  },
   "files": [
     "lib",
     "index.js"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wehjs/markdown.git"
-  },
+  "repository": "https://github.com/wehjs/core/tree/master/packages/markdown",
   "keywords": [
     "markdown",
     "static-site-generator",
@@ -28,20 +15,6 @@
   ],
   "author": "Frederic Marx <marx.frederic@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/wehjs/markdown/issues"
-  },
-  "homepage": "https://github.com/wehjs/markdown#readme",
-  "devDependencies": {
-    "@weh/weh": "3.0.0",
-    "ava": "^0.21.0",
-    "codecov": "^2.2.0",
-    "np": "2.16.0",
-    "nyc": "^11.0.2",
-    "snazzy": "^7.0.0",
-    "standard": "^10.0.2",
-    "weallbehave": "^1.2.0"
-  },
   "dependencies": {
     "markdown-it": "^8.3.1"
   }
