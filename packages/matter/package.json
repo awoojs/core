@@ -3,16 +3,6 @@
   "version": "1.0.4",
   "description": "⚗ Front matter parsing plugin for the weh static site generator",
   "main": "index.js",
-  "scripts": {
-    "lint": "standard | snazzy",
-    "ava": "unset DEBUG; ava",
-    "ava:ci": "unset DEBUG; nyc ava",
-    "ava:watch": "unset DEBUG; ava -w",
-    "test": "npm run lint && npm run ava:ci",
-    "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
-    "update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'update code of conduct'",
-    "deploy": "np"
-  },
   "files": [
     "lib",
     "index.js"

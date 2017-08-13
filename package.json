@@ -1,7 +1,22 @@
 {
   "name": "core",
   "private": true,
+  "scripts": {
+    "lint": "standard | snazzy",
+    "ava": "unset DEBUG; ava",
+    "ava:ci": "unset DEBUG; nyc ava",
+    "ava:watch": "unset DEBUG",
+    "test": "npm run lint && npm run ava:ci",
+    "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+    "update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'update code of conduct'"
+  },
   "devDependencies": {
-    "lerna": "^2.0.0"
+    "ava": "0.21.0",
+    "codecov": "2.3.0",
+    "lerna": "^2.0.0",
+    "nyc": "11.1.0",
+    "snazzy": "7.0.0",
+    "standard": "10.0.3",
+    "weallbehave": "1.2.0"
   }
 }
