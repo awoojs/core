@@ -17,10 +17,7 @@
     "lib",
     "index.js"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wehjs/matter.git"
-  },
+  "repository": "https://github.com/wehjs/core/tree/master/packages/matter",
   "keywords": [
     "front-matter",
     "weh",
@@ -28,22 +25,11 @@
   ],
   "author": "Frederic Marx <marx.frederic@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/wehjs/matter/issues"
-  },
-  "homepage": "https://github.com/wehjs/matter#readme",
   "dependencies": {
     "gray-matter": "3.0.2",
     "is-empty-object": "^1.1.1"
   },
   "devDependencies": {
-    "@weh/weh": "3.0.0",
-    "ava": "^0.21.0",
-    "codecov": "^2.2.0",
-    "np": "2.16.0",
-    "nyc": "^11.0.2",
-    "snazzy": "^7.0.0",
-    "standard": "^10.0.2",
-    "weallbehave": "^1.2.0"
+    "@weh/weh": "3.0.0"
   }
 }
