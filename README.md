@@ -12,6 +12,11 @@
     <img src="https://img.shields.io/travis/wehjs/core.svg?style=flat-square"
      alt="test status" />
   </a>
+  <!-- code coverage -->
+  <a href="https://codecov.io/gh/wehjs/core">
+    <img src="https://img.shields.io/codecov/c/github/wehjs/core.svg?style=flat-square"
+     alt="code coverage" />
+  </a>
 </div>
 
 <br />
