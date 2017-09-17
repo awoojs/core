@@ -16,10 +16,10 @@
   "author": "Frederic Marx <marx.frederic@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "gray-matter": "3.0.2",
+    "gray-matter": "^3.0.6",
     "is-empty-object": "^1.1.1"
   },
   "devDependencies": {
-    "@weh/weh": "3.0.0"
+    "@weh/weh": "^4.0.0"
   }
 }
