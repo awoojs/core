@@ -1,5 +1,5 @@
 {
-  "name": "@weh/matter",
+  "name": "@weh/metadata",
   "version": "1.0.6",
   "description": "Custom metadata plugin for the weh static site generator",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "lib",
     "index.js"
   ],
-  "repository": "https://github.com/wehjs/core/tree/master/packages/matter",
+  "repository": "https://github.com/wehjs/core/tree/master/packages/metadata",
   "keywords": [
     "weh",
     "metadata"

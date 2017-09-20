@@ -32,7 +32,7 @@ npm install --save @weh/metadata
 
 ```js
 const weh = require('@weh/weh')
-const matter = require('@weh/metadata')
+const metadata = require('@weh/metadata')
 
 // metadata object
 // a JavaScript object that you want to each to files in the weh array
@@ -55,7 +55,7 @@ weh(async site => {
 
 You can pass a custom filter as an option to `metadata` to include or exclude files.
 
-A filter is a function that takes the arguments `file`, `options`, and `files`. `file` is the current file, `options` is the options object passed to `matter`, and `files` is the entire array of files created by `weh`.
+A filter is a function that takes the arguments `file`, `options`, and `files`. `file` is the current file, `options` is the options object passed to `metadata`, and `files` is the entire array of files created by `weh`.
 
 When the filter function returns `true`, `metadata` applies its transforms to the current `file` object. Otherwise the `file` object remains unchanged.
 
@@ -67,11 +67,11 @@ function filter (file, options, files) {
 }
 ```
 
-This is how you could use a filter to only apply `matter` to files ending with `.md`:
+This is how you could use a filter to only apply `metadata` to files ending with `.md`:
 
 ```js
 const weh = require('@weh/weh')
-const matter = require('@weh/metadata')
+const metadata = require('@weh/metadata')
 
 // metadata object
 // a JavaScript object that you want to each to files in the weh array
@@ -86,8 +86,8 @@ function myCustomFilter (file, options, files) {
 }
 
 weh(async site => {
-  // we register the matter plugin with our custom filter function...
-  site.use(matter, {
+  // we register the metadata plugin with our custom filter function...
+  site.use(metadata, {
     metadata: myMetaData,
     filter: myCustomFilter
   })
