@@ -29,9 +29,10 @@ are safe and maintained.
 
 | Package | Version | Dependencies | Description |
 | -------- | ------- | -------------- | ------------ |
-| [`@weh/matter`](/packages/matter) | [![npm](https://img.shields.io/npm/v/@weh/matter.svg?style=flat-square)](https://npm.im/@weh/matter) | [![Dependency Status](https://david-dm.org/wehjs/core.svg?path=packages/matter&style=flat-square)](https://david-dm.org/wehjs/core?path=packages/matter) | frontmatter parsing |
-| [`@weh/markdown`](/packages/markdown) | [![npm](https://img.shields.io/npm/v/@weh/markdown.svg?style=flat-square)](https://npm.im/@weh/markdown) | [![Dependency Status](https://david-dm.org/wehjs/core.svg?path=packages/markdown&style=flat-square)](https://david-dm.org/wehjs/core?path=packages/markdown) | markdown parsing |
 | [`@weh/layouts`](/packages/layouts) | [![npm](https://img.shields.io/npm/v/@weh/layouts.svg?style=flat-square)](https://npm.im/@weh/layouts) | [![Dependency Status](https://david-dm.org/wehjs/core.svg?path=packages/layouts&style=flat-square)](https://david-dm.org/wehjs/core?path=packages/layouts) | reusable html templates |
+| [`@weh/markdown`](/packages/markdown) | [![npm](https://img.shields.io/npm/v/@weh/markdown.svg?style=flat-square)](https://npm.im/@weh/markdown) | [![Dependency Status](https://david-dm.org/wehjs/core.svg?path=packages/markdown&style=flat-square)](https://david-dm.org/wehjs/core?path=packages/markdown) | markdown parsing |
+| [`@weh/matter`](/packages/matter) | [![npm](https://img.shields.io/npm/v/@weh/matter.svg?style=flat-square)](https://npm.im/@weh/matter) | [![Dependency Status](https://david-dm.org/wehjs/core.svg?path=packages/matter&style=flat-square)](https://david-dm.org/wehjs/core?path=packages/matter) | frontmatter parsing |
+| [`@weh/metadata`](/packages/metadata) | [![npm](https://img.shields.io/npm/v/@weh/metadata.svg?style=flat-square)](https://npm.im/@weh/metadata) | [![Dependency Status](https://david-dm.org/wehjs/core.svg?path=packages/metadata&style=flat-square)](https://david-dm.org/wehjs/core?path=packages/metadata) | custom metadata |
 | [`@weh/pretty`](/packages/pretty) | [![npm](https://img.shields.io/npm/v/@weh/pretty.svg?style=flat-square)](https://npm.im/@weh/pretty) | [![Dependency Status](https://david-dm.org/wehjs/core.svg?path=packages/pretty&style=flat-square)](https://david-dm.org/wehjs/core?path=packages/pretty) | pretty links            |
 
 ## Team
