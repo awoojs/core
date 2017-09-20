@@ -15,6 +15,7 @@
   "author": "Frederic Marx <marx.frederic@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@weh/layouts": "^1.0.5",
     "@weh/weh": "^4.0.0"
   }
 }
