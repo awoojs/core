@@ -1,0 +1,20 @@
+{
+  "name": "@weh/matter",
+  "version": "1.0.6",
+  "description": "Custom metadata plugin for the weh static site generator",
+  "main": "index.js",
+  "files": [
+    "lib",
+    "index.js"
+  ],
+  "repository": "https://github.com/wehjs/core/tree/master/packages/matter",
+  "keywords": [
+    "weh",
+    "metadata"
+  ],
+  "author": "Frederic Marx <marx.frederic@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@weh/weh": "^4.0.0"
+  }
+}
