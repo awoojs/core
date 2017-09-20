@@ -28,6 +28,25 @@ test('parses front matter', t => {
   t.deepEqual(transform(input), expected)
 })
 
+test('preserves existing metadata', t => {
+  const input = {
+    contents: '---\nworks: true\n---\nHello',
+    metadata: {
+      doNotDeleteMe: true
+    }
+  }
+
+  const expected = {
+    contents: 'Hello',
+    metadata: {
+      doNotDeleteMe: true,
+      works: true
+    }
+  }
+
+  t.deepEqual(transform(input), expected)
+})
+
 test('accepts options', t => {
   const input = {
     contents: '~~~\nworks: true\n~~~\nHello'
