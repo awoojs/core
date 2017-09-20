@@ -1,0 +1,15 @@
+{
+  "name": "@weh/pretty",
+  "version": "1.0.0",
+  "description": "pretty links for weh",
+  "main": "lib/plugin.js",
+  "files": [
+    "lib"
+  ],
+  "repository": "https://github.com/wehjs/core/tree/master/packages/pretty",
+  "keywords": [
+    "weh"
+  ],
+  "author": "Olivia Hugger <olivia@fastmail.com>",
+  "license": "MIT"
+}
