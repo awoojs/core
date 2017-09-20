@@ -1,6 +1,6 @@
 {
   "name": "@weh/metadata",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "description": "Custom metadata plugin for the weh static site generator",
   "main": "index.js",
   "files": [
