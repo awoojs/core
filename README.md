@@ -47,6 +47,10 @@ npm install
 npx lerna bootstrap
 ```
 
+If you're implementing a new plugin, you can pull inspiration from the other
+ones (making a plugin template is still on our TODO list, sadly). Just open
+a pull request and we'll help you out!
+
 ## Team
 
 - Olivia Hugger <[olivia@fastmail.com](mailto:olivia@fastmail.com)>
