@@ -5,7 +5,9 @@ function plugin (options = {}) {
 
   return files => {
     return files.map(file => {
-      return filter(file, options, files) && file.path.endsWith('.html')
+      return filter(file, options, files) &&
+               file.extname === '.html' &&
+               file.basename !== 'index.html'
         ? transform(file, options, files)
         : file
     })
