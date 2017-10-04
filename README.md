@@ -35,6 +35,18 @@ are safe and maintained.
 | [`@weh/metadata`](/packages/metadata) | [![npm](https://img.shields.io/npm/v/@weh/metadata.svg?style=flat-square)](https://npm.im/@weh/metadata) | [![Dependency Status](https://david-dm.org/wehjs/core.svg?path=packages/metadata&style=flat-square)](https://david-dm.org/wehjs/core?path=packages/metadata) | custom metadata |
 | [`@weh/pretty`](/packages/pretty) | [![npm](https://img.shields.io/npm/v/@weh/pretty.svg?style=flat-square)](https://npm.im/@weh/pretty) | [![Dependency Status](https://david-dm.org/wehjs/core.svg?path=packages/pretty&style=flat-square)](https://david-dm.org/wehjs/core?path=packages/pretty) | pretty links            |
 
+## Development
+
+To work on `core`, just clone the repository, install the npm dependencies, and
+bootstrap the lerna stuff. Like this:
+
+```sh
+git clone https://github.com/wehjs/core.git weh-core
+cd weh-core
+npm install
+npx lerna bootstrap
+```
+
 ## Team
 
 - Olivia Hugger <[olivia@fastmail.com](mailto:olivia@fastmail.com)>
