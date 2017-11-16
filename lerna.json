@@ -5,7 +5,7 @@
   ],
   "version": "independent",
   "changelog": {
-    "repo": "wehjs/core",
+    "repo": "awoojs/core",
     "labels": {
       "type: bug": "bug fixes",
       "type: documentation": "documentation enhancements",

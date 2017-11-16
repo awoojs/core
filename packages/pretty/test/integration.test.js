@@ -1,5 +1,5 @@
 const test = require('ava')
-const weh = require('@weh/weh')
+const awoo = require('awoo')
 const vfile = require('vfile')
 const plugin = require('../lib/plugin')
 
@@ -15,7 +15,7 @@ test('pretty plugin works', async t => {
     })
   ]
 
-  const res = await weh.integration(async site => {
+  const res = await awoo.integration(async site => {
     site.use(plugin)
     return site
   }, files)
@@ -36,7 +36,7 @@ test('pretty plugin excludes index.html', async t => {
     })
   ]
 
-  const res = await weh.integration(async site => {
+  const res = await awoo.integration(async site => {
     site.use(plugin)
     return site
   }, files)

@@ -1,14 +1,14 @@
 {
-  "name": "@weh/pretty",
+  "name": "awoo-pretty",
   "version": "1.1.1",
-  "description": "pretty links for weh",
+  "description": "pretty links for awoo",
   "main": "lib/plugin.js",
   "files": [
     "lib"
   ],
-  "repository": "https://github.com/wehjs/core/tree/master/packages/pretty",
+  "repository": "https://github.com/awoojs/core/tree/master/packages/pretty",
   "keywords": [
-    "weh"
+    "awoo"
   ],
   "author": "Olivia Hugger <olivia@fastmail.com>",
   "license": "MIT"

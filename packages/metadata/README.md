@@ -1,15 +1,15 @@
 <h1 align="center">
-  @weh/metadata
+  awoo-metadata
 </h1>
 
 <p align="center">
-  A custom metadata plugin for the <a href="https://github.com/wehjs/weh">weh static site generator</a>
+  A custom metadata plugin for the <a href="https://github.com/awoojs/awoo">awoo static site generator</a>
 </p>
 
 <p align="center">
   <!-- npm version -->
-  <a href="https://npmjs.org/package/@weh/metadata">
-    <img src="https://img.shields.io/npm/v/@weh/metadata.svg?style=flat-square"
+  <a href="https://npmjs.org/package/awoo-metadata">
+    <img src="https://img.shields.io/npm/v/awoo-metadata.svg?style=flat-square"
       alt="npm version" />
   </a>
   <!-- code style -->
@@ -19,23 +19,23 @@
 
 ## Features
 
-- **Add custom metadata** to files within the [weh](https://github.com/wehjs/weh) `files` array
+- **Add custom metadata** to files within the [awoo](https://github.com/awoojs/awoo) `files` array
 - **Custom filter functions** to include or exclude files from transforms
 
 ## Installation
 
 ```sh
-npm install --save @weh/metadata
+npm install --save awoo-metadata
 ```
 
 ## Usage example
 
 ```js
-const weh = require('@weh/weh')
-const metadata = require('@weh/metadata')
+const awoo = require('awoo')
+const metadata = require('awoo-metadata')
 
 // metadata object
-// a JavaScript object that you want to each to files in the weh array
+// a JavaScript object that you want to apply to files in the awoo array
 const myMetaData = {
   name: 'My awesome website'
 }
@@ -43,7 +43,7 @@ const myMetaData = {
 // enter our main function:
 // the main function should be an async function so that
 // it automatically returns a promise
-weh(async site => {
+awoo(async site => {
   // we register our plugin...
   site.use(metadata, {metadata: myMetaData})
   // ...and initiate the build process
@@ -55,7 +55,7 @@ weh(async site => {
 
 You can pass a custom filter as an option to `metadata` to include or exclude files.
 
-A filter is a function that takes the arguments `file`, `options`, and `files`. `file` is the current file, `options` is the options object passed to `metadata`, and `files` is the entire array of files created by `weh`.
+A filter is a function that takes the arguments `file`, `options`, and `files`. `file` is the current file, `options` is the options object passed to `metadata`, and `files` is the entire array of files created by `awoo`.
 
 When the filter function returns `true`, `metadata` applies its transforms to the current `file` object. Otherwise the `file` object remains unchanged.
 
@@ -70,11 +70,11 @@ function filter (file, options, files) {
 This is how you could use a filter to only apply `metadata` to files ending with `.md`:
 
 ```js
-const weh = require('@weh/weh')
-const metadata = require('@weh/metadata')
+const awoo = require('awoo')
+const metadata = require('awoo-metadata')
 
 // metadata object
-// a JavaScript object that you want to each to files in the weh array
+// a JavaScript object that you want to each to files in the awoo array
 const myMetaData = {
   name: 'My awesome website'
 }
@@ -85,7 +85,7 @@ function myCustomFilter (file, options, files) {
   return file.path.endsWith('.md')
 }
 
-weh(async site => {
+awoo(async site => {
   // we register the metadata plugin with our custom filter function...
   site.use(metadata, {
     metadata: myMetaData,
@@ -98,7 +98,7 @@ weh(async site => {
 
 ## How does it work?
 
-`metadata` takes any JavaScript object and writes it to the `metadata` property of files in the `weh` array.
+`metadata` takes any JavaScript object and writes it to the `metadata` property of files in the `awoo` array.
 
 ## Maintainers
 

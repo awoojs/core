@@ -1,21 +1,20 @@
 {
-  "name": "@weh/metadata",
+  "name": "awoo-metadata",
   "version": "1.1.1",
-  "description": "Custom metadata plugin for the weh static site generator",
+  "description": "Custom metadata plugin for the awoo static site generator",
   "main": "index.js",
   "files": [
     "lib",
     "index.js"
   ],
-  "repository": "https://github.com/wehjs/core/tree/master/packages/metadata",
+  "repository": "https://github.com/awoojs/core/tree/master/packages/metadata",
   "keywords": [
-    "weh",
+    "awoo",
     "metadata"
   ],
   "author": "Frederic Marx <marx.frederic@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@weh/layouts": "^1.0.5",
-    "@weh/weh": "^4.0.0"
+    "awoo-layouts": "^1.0.5"
   }
 }

@@ -1,16 +1,16 @@
 {
-  "name": "@weh/matter",
+  "name": "awoo-matter",
   "version": "1.1.0",
-  "description": "⚗ Front matter parsing plugin for the weh static site generator",
+  "description": "⚗ Front matter parsing plugin for the awoo static site generator",
   "main": "index.js",
   "files": [
     "lib",
     "index.js"
   ],
-  "repository": "https://github.com/wehjs/core/tree/master/packages/matter",
+  "repository": "https://github.com/awoojs/core/tree/master/packages/matter",
   "keywords": [
     "front-matter",
-    "weh",
+    "awoo",
     "yaml"
   ],
   "author": "Frederic Marx <marx.frederic@gmail.com>",
@@ -18,8 +18,5 @@
   "dependencies": {
     "gray-matter": "^3.0.6",
     "is-empty-object": "^1.1.1"
-  },
-  "devDependencies": {
-    "@weh/weh": "^4.0.0"
   }
 }

@@ -11,8 +11,8 @@
     "update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'update code of conduct'"
   },
   "devDependencies": {
-    "@weh/weh": "^4.0.0",
     "ava": "^0.22.0",
+    "awoo": "4.0.1",
     "codecov": "2.3.0",
     "lerna": "^2.2.0",
     "lerna-changelog": "0.6.0",
@@ -21,5 +21,6 @@
     "standard": "10.0.3",
     "vfile": "^2.2.0",
     "weallbehave": "1.2.0"
-  }
+  },
+  "dependencies": {}
 }

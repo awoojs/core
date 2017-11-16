@@ -1,7 +1,7 @@
 const test = require('ava')
-const weh = require('@weh/weh')
+const awoo = require('awoo')
 const vfile = require('vfile')
-const layouts = require('@weh/layouts')
+const layouts = require('awoo-layouts')
 const plugin = require('../lib/plugin')
 
 test('metadata plugin works', async t => {
@@ -21,7 +21,7 @@ test('metadata plugin works', async t => {
   const layout = (file, files) =>
   `<h1>hello ${file.metadata.world}</h1>`
 
-  const res = await weh.integration(async site => {
+  const res = await awoo.integration(async site => {
     site.use(plugin, { metadata: myMetadata })
     site.use(layouts, { layouts: { layout } })
     return site

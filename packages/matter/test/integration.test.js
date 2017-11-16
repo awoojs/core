@@ -1,5 +1,5 @@
 const test = require('ava')
-const weh = require('@weh/weh')
+const awoo = require('awoo')
 const matter = require('../index')
 
 test('correctly parses', async t => {
@@ -9,7 +9,7 @@ test('correctly parses', async t => {
     }
   ]
 
-  const res = await weh.integration(async site => {
+  const res = await awoo.integration(async site => {
     site.use(matter)
     return site
   }, files)

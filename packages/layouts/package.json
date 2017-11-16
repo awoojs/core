@@ -1,14 +1,14 @@
 {
-  "name": "@weh/layouts",
+  "name": "awoo-layouts",
   "version": "1.0.5",
-  "description": "reusable html layouts for weh",
+  "description": "reusable html layouts for awoo",
   "main": "lib/plugin.js",
   "files": [
     "lib"
   ],
-  "repository": "https://github.com/wehjs/core/tree/master/packages/layouts",
+  "repository": "https://github.com/awoojs/core/tree/master/packages/layouts",
   "keywords": [
-    "weh"
+    "awoo"
   ],
   "author": "Olivia Hugger <olivia@fastmail.com>",
   "license": "MIT"

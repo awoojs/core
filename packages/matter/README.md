@@ -1,15 +1,15 @@
 <h1 align="center">
-  @weh/matter
+  awoo-matter
 </h1>
 
 <p align="center">
-  A front matter parsing plugin for the <a href="https://github.com/wehjs/weh">weh static site generator</a>
+  A front matter parsing plugin for the <a href="https://github.com/awoojs/awoo">awoo static site generator</a>
 </p>
 
 <p align="center">
   <!-- npm version -->
-  <a href="https://npmjs.org/package/@weh/matter">
-    <img src="https://img.shields.io/npm/v/@weh/matter.svg?style=flat-square"
+  <a href="https://npmjs.org/package/awoo-matter">
+    <img src="https://img.shields.io/npm/v/awoo-matter.svg?style=flat-square"
       alt="npm version" />
   </a>
   <!-- code style -->
@@ -19,25 +19,25 @@
 
 ## Features
 
-- **Extract YAML metadata** _(Front Matter)_ from text files within the [weh](https://github.com/wehjs/weh) `files` array
+- **Extract YAML metadata** _(Front Matter)_ from text files within the [awoo](https://github.com/awoojs/awoo) `files` array
 - **Custom filter functions** to include or exclude files from transforms
 
 ## Installation
 
 ```sh
-npm install --save @weh/matter
+npm install --save awoo-matter
 ```
 
 ## Usage example
 
 ```js
-const weh = require('@weh/weh')
-const matter = require('@weh/matter')
+const awoo = require('awoo')
+const matter = require('awoo-matter')
 
 // enter our main function:
 // the main function should be an async function so that
 // it automatically returns a promise
-weh(async site => {
+awoo(async site => {
   // we register our plugin...
   site.use(matter)
   // ...and initiate the build process
@@ -49,7 +49,7 @@ weh(async site => {
 
 You can pass a custom filter as an option to `matter` to include or exclude files.
 
-A filter is a function that takes the arguments `file`, `options`, and `files`. `file` is the current file, `options` is the options object passed to `matter`, and `files` is the entire array of files created by `weh`.
+A filter is a function that takes the arguments `file`, `options`, and `files`. `file` is the current file, `options` is the options object passed to `matter`, and `files` is the entire array of files created by `awoo`.
 
 When the filter function returns `true`, `matter` applies its transforms to the current `file` object. Otherwise the `file` object remains unchanged.
 
@@ -64,8 +64,8 @@ function filter (file, options, files) {
 This is how you could use a filter to only apply `matter` to files ending with `.md`:
 
 ```js
-const weh = require('@weh/weh')
-const matter = require('@weh/matter')
+const awoo = require('awoo')
+const matter = require('awoo-matter')
 
 // custom filter function
 // returns true if file path ends with '.md'
@@ -73,7 +73,7 @@ function myCustomFilter (file, options, files) {
   return file.path.endsWith('.md')
 }
 
-weh(async site => {
+awoo(async site => {
   // we register the matter plugin with our custom filter function...
   site.use(matter, {filter: myCustomFilter})
   // ...and initiate the build process
@@ -88,15 +88,15 @@ weh(async site => {
 This is what a plugin call with custom options would look like:
 
 ```js
-const weh = require('@weh/weh')
-const matter = require('@weh/matter')
+const awoo = require('awoo')
+const matter = require('awoo-matter')
 
 // we define our options object...
 const myMatterOptions = {
   delims: '~~~'
 }
 
-weh(async site => {
+awoo(async site => {
   // ...and pass it to the use method
   site.use(matter, myMatterOptions)
   return site
@@ -116,7 +116,7 @@ title: Greeting
 Hello World
 ```
 
-The resulting weh `file` object would be:
+The resulting awoo `file` object would be:
 
 ```js
 contents: 'Hello World',

@@ -1,15 +1,15 @@
 <h1 align="center">
-  @weh/pretty
+  awoo-pretty
 </h1>
 
 <p align="center">
-  nice pretty links for weh
+  nice pretty links for awoo
 </p>
 
 <p align="center">
   <!-- npm version -->
-  <a href="https://npmjs.org/package/@weh/pretty">
-    <img src="https://img.shields.io/npm/v/@weh/pretty.svg?style=flat-square"
+  <a href="https://npmjs.org/package/awoo-pretty">
+    <img src="https://img.shields.io/npm/v/awoo-pretty.svg?style=flat-square"
       alt="npm version" />
   </a>
   <!-- code style -->
@@ -20,19 +20,19 @@
 ## Installation
 
 ```sh
-npm install @weh/pretty
+npm install awoo-pretty
 ```
 
 ## Usage example
 
 ```js
-const weh = require('@weh/weh')
-const plugin = require('@weh/pretty')
+const awoo = require('awoo')
+const plugin = require('awoo-pretty')
 
 // enter our main function:
 // the main function should be an async function so that
 // it automatically returns a promise
-weh(async site => {
+awoo(async site => {
   // we use the plugin
   site.use(plugin)
   // ...and initiate the build process
@@ -58,7 +58,7 @@ This filter only matches HTML files that are located in the `my-dir` directory.
 To use the filter, just pass it into the plugin options:
 
 ```js
-weh(async site => {
+awoo(async site => {
   site.use(pretty, {filter: myCustomFilter})
   return site
 })

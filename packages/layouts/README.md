@@ -1,15 +1,15 @@
 <h1 align="center">
-  @weh/layouts
+  awoo-layouts
 </h1>
 
 <p align="center">
-  reusable html layouts for weh
+  reusable html layouts for awoo
 </p>
 
 <p align="center">
   <!-- npm version -->
-  <a href="https://npmjs.org/package/@weh/layouts">
-    <img src="https://img.shields.io/npm/v/@weh/layouts.svg?style=flat-square"
+  <a href="https://npmjs.org/package/awoo-layouts">
+    <img src="https://img.shields.io/npm/v/awoo-layouts.svg?style=flat-square"
       alt="npm version" />
   </a>
   <!-- code style -->
@@ -27,16 +27,16 @@
 
 ```sh
 # you will need frontmatter support:
-npm install @weh/matter
-npm install @weh/layouts
+npm install awoo-matter
+npm install awoo-layouts
 ```
 
 ## Usage example
 
 ```js
-const weh = require('@weh/weh')
-const matter = require('@weh/matter')
-const plugin = require('@weh/layouts')
+const awoo = require('awoo')
+const matter = require('awoo-matter')
+const layouts = require('awoo-layouts')
 
 // a layout is just a js function that returns a string of
 // html! it takes the current file and also the total set
@@ -51,7 +51,7 @@ const layout = (file, files) =>
 // enter our main function:
 // the main function should be an async function so that
 // it automatically returns a promise
-weh(async site => {
+awoo(async site => {
   // first we need frontmatter support
   site.use(matter)
   // and now we can initialize layouts
@@ -89,7 +89,7 @@ function myOtherCustomFilter (file, options, files) {
 To use the filter, just pass it into the plugin options:
 
 ```js
-weh(async site => {
+awoo(async site => {
   site.use(matter)
   site.use(layouts, {layouts: {...}, filter: myCustomFilter})
   return site

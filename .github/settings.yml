@@ -1,6 +1,6 @@
 repository:
   name: core
-  description: ':cd: officially supported plugins for weh'
+  description: ':cd: officially supported plugins for awoo'
   private: false
   has_issues: true
   has_projects: false
