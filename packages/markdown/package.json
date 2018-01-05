@@ -1,6 +1,6 @@
 {
   "name": "awoo-markdown",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "🔻 Markdown parsing plugin for the awoo static site generator",
   "main": "index.js",
   "files": [
