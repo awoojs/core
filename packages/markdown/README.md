@@ -83,6 +83,32 @@ awoo(async site => {
 })
 ```
 
+## Markdown-it plugin example
+
+You can pass plugins as an option to `markdown` to use [markdown-it plugin](https://github.com/markdown-it/markdown-it#plugins-load).
+
+plugins is an array that contains every `plugin`.
+
+`plugin` is also an array that takes one or more arguments,
+the first argument is the markdown-it plugin, and the following arguments
+is the custom options that the markdown-it plugin takes itself.
+
+```js
+const awoo = require('awoo')
+const markdown = require('awoo-markdown')
+const markdownItContainer = require('markdown-it-container')
+
+awoo(async site => {
+  // we register the markdown plugin with its own plugins...
+  site.use(markdown, {plugins: [
+    [markdownItContainer, 'spoiler']
+  ]})
+  // ...and initiate the build process
+  return site
+})
+
+```
+
 All processed files are renamed to `<filename>.html` after being converted.
 
 ## Maintainers
