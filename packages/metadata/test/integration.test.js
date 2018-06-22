@@ -19,7 +19,7 @@ test('metadata plugin works', async t => {
   }
 
   const layout = (file, files) =>
-  `<h1>hello ${file.metadata.world}</h1>`
+    `<h1>hello ${file.metadata.world}</h1>`
 
   const res = await awoo.integration(async site => {
     site.use(plugin, { metadata: myMetadata })

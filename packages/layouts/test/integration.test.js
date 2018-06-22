@@ -2,9 +2,8 @@ const test = require('ava')
 const awoo = require('awoo')
 const plugin = require('../lib/plugin')
 
-const layout = (file, files) =>
-`
-h${file.contents}
+const layout = (file, files) => `
+  h${file.contents}
 `
 
 test('plugin works', async t => {
