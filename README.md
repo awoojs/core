@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  officially supported awoo plugins<br>[![Greenkeeper badge](https://badges.greenkeeper.io/awoojs/core.svg)](https://greenkeeper.io/)
+  officially supported awoo plugins<br>
 </p>
 
 <div align="center">
