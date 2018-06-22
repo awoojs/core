@@ -1,0 +1,14 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "package.json",
+        "packages/layouts/package.json",
+        "packages/markdown/package.json",
+        "packages/matter/package.json",
+        "packages/metadata/package.json",
+        "packages/pretty/package.json"
+      ]
+    }
+  }
+}

@@ -33,7 +33,7 @@ are safe and maintained.
 | [`awoo-markdown`](/packages/markdown) | [![npm](https://img.shields.io/npm/v/awoo-markdown.svg?style=flat-square)](https://npm.im/awoo-markdown) | [![Dependency Status](https://david-dm.org/awoojs/core.svg?path=packages/markdown&style=flat-square)](https://david-dm.org/awoojs/core?path=packages/markdown) | markdown parsing |
 | [`awoo-matter`](/packages/matter) | [![npm](https://img.shields.io/npm/v/awoo-matter.svg?style=flat-square)](https://npm.im/awoo-matter) | [![Dependency Status](https://david-dm.org/awoojs/core.svg?path=packages/matter&style=flat-square)](https://david-dm.org/awoojs/core?path=packages/matter) | frontmatter parsing |
 | [`awoo-metadata`](/packages/metadata) | [![npm](https://img.shields.io/npm/v/awoo-metadata.svg?style=flat-square)](https://npm.im/awoo-metadata) | [![Dependency Status](https://david-dm.org/awoojs/core.svg?path=packages/metadata&style=flat-square)](https://david-dm.org/awoojs/core?path=packages/metadata) | custom metadata |
-| [`awoo-pretty`](/packages/pretty) | [![npm](https://img.shields.io/npm/v/awoo-pretty.svg?style=flat-square)](https://npm.im/awoo-pretty) | [![Dependency Status](https://david-dm.org/awoojs/core.svg?path=packages/pretty&style=flat-square)](https://david-dm.org/awoojs/core?path=packages/pretty) | pretty links            |
+| [`awoo-pretty`](/packages/pretty) | [![npm](https://img.shields.io/npm/v/awoo-pretty.svg?style=flat-square)](https://npm.im/awoo-pretty) | [![Dependency Status](https://david-dm.org/awoojs/core.svg?path=packages/pretty&style=flat-square)](https://david-dm.org/awoojs/core?path=packages/pretty) [![Greenkeeper badge](https://badges.greenkeeper.io/awoojs/core.svg)](https://greenkeeper.io/) | pretty links            |
 
 ## Development
 

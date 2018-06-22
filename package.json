@@ -11,15 +11,15 @@
     "update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'update code of conduct'"
   },
   "devDependencies": {
-    "ava": "0.23.0",
-    "awoo": "4.0.1",
-    "codecov": "3.0.0",
-    "lerna": "2.5.1",
-    "lerna-changelog": "0.7.0",
-    "nyc": "11.3.0",
-    "snazzy": "7.0.0",
-    "standard": "10.0.3",
-    "vfile": "^2.2.0",
+    "ava": "0.25.0",
+    "awoo": "4.0.2",
+    "codecov": "3.0.2",
+    "lerna": "2.11.0",
+    "lerna-changelog": "0.8.0",
+    "nyc": "12.0.2",
+    "snazzy": "7.1.1",
+    "standard": "11.0.1",
+    "vfile": "^3.0.0",
     "weallbehave": "1.2.0"
   },
   "dependencies": {}
