@@ -16,7 +16,7 @@
   "author": "Frederic Marx <marx.frederic@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "gray-matter": "4.0.1",
+    "gray-matter": "4.0.2",
     "is-empty-object": "^1.1.1"
   }
 }
