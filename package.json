@@ -11,7 +11,7 @@
     "update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'update code of conduct'"
   },
   "devDependencies": {
-    "ava": "0.25.0",
+    "ava": "2.0.0",
     "awoo": "4.1.0",
     "codecov": "3.1.0",
     "lerna": "3.3.2",
