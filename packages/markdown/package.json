@@ -16,7 +16,7 @@
   "author": "Frederic Marx <marx.frederic@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "markdown-it": "^8.4.0"
+    "markdown-it": "^9.1.0"
   },
   "devDependencies": {
     "endent": "^1.1.1",
