@@ -19,7 +19,7 @@
     "nyc": "12.0.2",
     "snazzy": "7.1.1",
     "standard": "11.0.1",
-    "vfile": "^3.0.0",
+    "vfile": "^4.0.2",
     "weallbehave": "1.2.0"
   },
   "dependencies": {}
