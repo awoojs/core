@@ -19,7 +19,7 @@
     "markdown-it": "^8.4.0"
   },
   "devDependencies": {
-    "endent": "^1.1.1",
+    "endent": "^1.4.0",
     "markdown-it-container": "^2.0.0"
   }
 }
