@@ -18,7 +18,7 @@
     "lerna-changelog": "0.8.0",
     "nyc": "12.0.2",
     "snazzy": "7.1.1",
-    "standard": "11.0.1",
+    "standard": "14.3.2",
     "vfile": "^3.0.0",
     "weallbehave": "1.2.0"
   },
