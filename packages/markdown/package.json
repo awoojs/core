@@ -20,6 +20,6 @@
   },
   "devDependencies": {
     "endent": "^1.1.1",
-    "markdown-it-container": "^2.0.0"
+    "markdown-it-container": "^3.0.0"
   }
 }
